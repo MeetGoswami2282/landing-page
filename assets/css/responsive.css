@@ -229,8 +229,8 @@
         grid-template-columns: auto auto auto auto auto auto;
         grid-gap: 10px;
         padding: 10px;
-        grid-template-columns: repeat(2, 172px);
-        justify-content: center;
+        grid-template-columns: repeat(2, 150px);
+        justify-content: center
     }
 
     .grid-container img {
@@ -286,7 +286,7 @@
         height: 105px;
         width: 132px;
         position: relative;
-        left: 19px;
+        left: 10px;
     }
 
     .grid-container img {
