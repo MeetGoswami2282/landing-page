@@ -1,0 +1,835 @@
+/* 1 navbar */
+@media only screen and (min-width: 640px) and (max-width: 1000px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+        z-index: 1;
+        width: 50%;
+        background-color: #cb4274;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .search-bar-responsive {
+        display: flex;
+        border-radius: 100vmax;
+        min-height: 2.5rem;
+        overflow: hidden;
+        max-width: 47rem;
+        width: 100%;
+    }
+
+    .responsive-address {
+        display: none;
+    }
+
+    .responsive-flag-icon {
+        display: flex;
+        margin-top: 5%;
+    }
+    .indian-flag{
+        right: 0px;
+    }
+    .indian-flag img {
+        bottom: 0px;
+    }
+
+    .user {
+        margin-top: 5%;
+    }
+
+    .search-bar {
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid white;
+        min-height: 2.5rem;
+        overflow: hidden;
+        max-width: 47rem;
+        width: 120%;
+    }
+
+    .main-navbar {
+        display: none;
+    }
+
+    .responsive-main-navbar {
+        display: block;
+    }
+
+    .address {
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 0px 10px 10px 0px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+        z-index: 1;
+        background-color: #0a69ed;
+        width: 70%;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    [type="search"] {
+        font-size: 12px;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .responsive-address {
+        display: none;
+    }
+
+    .main-navbar {
+        display: none;
+    }
+
+    .responsive-search-bar-container {
+        display: block;
+    }
+
+    .responsive-main-navbar {
+        display: block;
+    }
+
+    .search-bar-responsive {
+        display: flex;
+        border-radius: 100vmax;
+        min-height: 25px;
+        overflow: hidden;
+        max-width: 47rem;
+        width: 100%;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .responsive-flag-icon {
+        display: flex;
+    }
+
+    .indian-flag {
+        right: 0px;
+    }
+
+    .indian-flag img {
+        height: 30px;
+    }
+    .search-bar-responsive{
+        height: 30px !important;
+        position: relative;
+        right: 10px;
+    }
+
+    #cart-icon {
+        width: 25px;
+        margin: 0px !important;
+    }
+
+  #user-with-icon{
+    letter-spacing: 5px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    position: relative;
+    bottom: 10px;
+  }
+    #notification-bell-icon {
+        width: 20px;
+        left: 0px;
+    }
+
+    .indian-flag img {
+        bottom: 0px;
+    }
+
+    .responsive-flag-icon {
+        margin-top: 5%;
+    }
+    .search-bar__button-icon {
+        width: 12px !important;
+    }
+    .search-bar__label-icon{
+        width: 15px !important;
+    }
+    .address {
+        text-align: initial;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .user {
+        text-align: initial;
+        margin-top: 12%;
+    }
+}
+
+/* 2.jssor slider [complete]*/
+/* 3. grid container */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-gap: 10px;
+        padding: 10px;
+        grid-template-columns: repeat(2, 172px);
+        justify-content: center;
+    }
+
+    .grid-container img {
+        width: 30%;
+    }
+
+    .bills-pay-recharge,
+    .best-shopping-website,
+    .mega-brand,
+    .mega-brand,
+    .near-by-vendors,
+    .online-vendors,
+    .gg-mall,
+    .gg-grange,
+    .travel,
+    .upos-vendors,
+    .swatantra,
+    .loan,
+    .it-service,
+    .buy-car,
+    .buy-insurance,
+    .gg-finz,
+    .gg-real-estate,
+    .gg-game {
+        height: 140px;
+    }
+
+    .grid-container p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 369px) {
+
+    .bills-pay-recharge,
+    .best-shopping-website,
+    .mega-brand,
+    .mega-brand,
+    .near-by-vendors,
+    .online-vendors,
+    .gg-mall,
+    .gg-grange,
+    .travel,
+    .upos-vendors,
+    .swatantra,
+    .loan,
+    .it-service,
+    .buy-car,
+    .buy-insurance,
+    .gg-finz,
+    .gg-real-estate,
+    .gg-game {
+        height: 105px;
+        width: 132px;
+        position: relative;
+        left: 19px;
+    }
+
+    .grid-container img {
+        width: 35%;
+    }
+}
+
+/* 4.best shopping websites carousle */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .view-all {
+        font-size: 12px;
+        position: relative;
+        bottom: 6px;
+    }
+
+    .view-all button {
+        padding: 1px 20px;
+        position: relative;
+        top: 2px;
+    }
+
+    .best-shopping-website-heading {
+        justify-content: space-around !important;
+    }
+
+    .best-shopping-text h2 {
+        font-size: 16px;
+    }
+
+    .boat-logo,
+    .lenovo-logo,
+    .lg-logo,
+    .wynk-logo,
+    .banggood-logo {
+        text-align: center;
+    }
+}
+
+
+/*5. MEGA BRANDS */
+/* mobile */
+@media only screen and (min-width: 320px) and (max-width: 595px) {
+    .heading-text {
+        justify-content: space-around !important;
+    }
+    #gift-card-voucher{
+        padding: 20px !important;
+    }
+    .mega-brands-text {
+        font-size: 12px;
+        position: relative;
+        top: 7px;
+    }
+
+    .mega-btn button {
+        padding: 1px 11px;
+        font-size: 10px;
+        bottom: 1px;
+        position: relative;
+    }
+
+    .delivery-instant-text span,
+    .digital-voucher span {
+        font-size: 11px;
+    }
+
+    .gift-card-text {
+        font-size: 10px;
+        margin-bottom: 0px !important;
+    }
+
+    .gg-coin {
+        margin-bottom: 0px !important;
+    }
+
+    .toggle,
+    .toggle-second,
+    .toggle-third,
+    .toggle-fourth,
+    .toggle-fifth,
+    .toggle-sixth,
+    .toggle-seventh,
+    .toggle-eighth {
+        position: relative;
+        bottom: 5px;
+        display: flex;
+    }
+}
+
+/* tablet */
+@media only screen and (min-width: 595px) and (max-width: 867px) {
+
+    .delivery-instant-text span,
+    .digital-voucher span {
+        font-size: 13px;
+    }
+
+    .gift-card-text {
+        font-size: 12px;
+    }
+
+    .toggle,
+    .toggle-second,
+    .toggle-third,
+    .toggle-fourth,
+    .toggle-fifth,
+    .toggle-sixth,
+    .toggle-seventh,
+    .toggle-eighth {
+        position: relative;
+        bottom: 5px;
+        display: flex;
+    }
+
+    .heading-text {
+        flex-wrap: nowrap !important;
+    }
+
+    .mega-brands-text {
+        font-size: 20px;
+    }
+
+    .mega-btn button {
+        padding: 4px 23px;
+    }
+}
+
+/*6. HOT PRODUCT FOR THIS WEEK */
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    #hot-product-for-week {
+        margin-top: 2px !important;
+    }
+
+    #product-details {
+        margin-top: 20px !important;
+    }
+
+    .remain-until-offer {
+        left: 5px;
+    }
+
+    .hoodie-pic {
+        text-align: center;
+    }
+
+    #original-price {
+        font-size: 12px;
+    }
+
+    #discount-price {
+        font-size: 14px;
+    }
+
+    .navy-blue-text h1 {
+        font-size: 18px;
+        font: unset;
+    }
+
+    .offer-time p {
+        top: 4px;
+    }
+
+    .hot-product-heading-btn {
+        justify-content: space-around !important;
+    }
+
+    #product-quantity {
+        font-size: 14px;
+    }
+
+    #in-stock-text {
+        font-size: 12px;
+    }
+
+    #hot-product,
+    #this-week {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .hot-product-view-all-btn button {
+        font-size: 10px;
+        padding: 1px 11px;
+        position: relative;
+        top: 5px;
+    }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 988px) {
+    .hot-product-heading-btn {
+        flex-wrap: nowrap !important;
+        padding: 10px;
+    }
+
+    #hot-product,
+    #this-week {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+
+    .hot-product-view-all-btn button {
+        padding: 3px 26px;
+        font-size: 12px;
+    }
+
+    #product-details {
+        margin-top: 10px !important;
+    }
+
+    .hot-product-view-all-btn {
+        position: relative;
+        top: 5px;
+    }
+
+    #image-with-discount img {
+        position: relative;
+        top: 25px;
+    }
+
+    .remain-until-offer p {
+        position: relative;
+        right: 18px;
+    }
+}
+
+/*7 near-by-vendors part */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    #first-saloon {
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    #eighth-saloon {
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    #fourth-saloon {
+        border-radius: 0px;
+    }
+
+    .quick-view-btn button {
+        font-size: 12px;
+    }
+
+    #near-by-vendors {
+        margin-top: 3px !important;
+    }
+
+    #saloon-details {
+        margin-top: 2px !important;
+    }
+
+    .near-by-vendors-view-all-btn button {
+        padding: 2px 20px;
+        color: #153e80;
+        font-size: 14px;
+        position: relative;
+        top: 5px;
+        font-size: 10px;
+    }
+
+    .saloon-pic img {
+        width: 150px;
+        height: 130px;
+    }
+
+    .near-by-vendors-text span {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
+    .near-byvendors-heading-btn {
+        text-align: center;
+        display: flex;
+        padding: 0px;
+        letter-spacing: 1px;
+        padding: 6px;
+        justify-content: space-between !important;
+    }
+
+    .saloon-name p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 990px) {
+    #first-saloon {
+        border-radius: 15px 0px 0px 0px;
+    }
+
+    #second-saloon {
+        border-radius: 0px 15px 0px 0px;
+    }
+
+    #fourth-saloon {
+        border-radius: 0px;
+    }
+
+    #seventh-saloon {
+        border-radius: 0px 0px 0px 15px;
+    }
+
+    #eighth-saloon {
+        border-radius: 0px 0px 15px 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .near-by-vendors-text span {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+
+    .near-by-vendors-view-all-btn button {
+        padding: 2px 20px;
+    }
+}
+
+/* 8 scrolllbar slider */
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+    .scrolling-wrapper {
+        margin-left: 4px;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 315px;
+        height: 200px;
+    }
+
+    .scroll-bar-details p {
+        font-size: 10px;
+    }
+
+    .scroll-bar-details h2 {
+        font-size: 18px;
+    }
+
+    .scroll-bar-details span {
+        font-size: 12px;
+    }
+
+    .scrollbar-shop-now-btn {
+        font-size: 10px;
+    }
+}
+
+/*9. TESTIMONIAL */
+@media only screen and (max-width: 768px) {
+
+    #description-testimonial {
+        width: 60%;
+        left: 20%;
+    }
+
+    #first,
+    #second,
+    #third {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #testimonial {
+        margin-bottom: 2px !important;
+        padding: 20px !important;
+       
+    }
+
+    .testimonial-heading-text {
+        font-size: 16px;
+    }
+
+    #first,
+    #second,
+    #third {
+        width: 80px;
+        height: 65px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    #description-testimonial h3 {
+        font-size: 13px;
+    }
+
+    #description-testimonial {
+        width: 75%;
+        left: 14%;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        width: unset !important;
+        bottom:25%;
+        color: white;
+    }
+}
+
+/* 10.our visitor */
+@media only screen and (max-width: 500px) {
+    #download-gg-app-pic {
+        width: 50%;
+        height: 100%;
+        left: 1%;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    #download-gg-app-pic {
+        width: 35%;
+        height: 100%;
+    }
+
+    .background-color-image {
+        height: 250px;
+    }
+
+    #circle {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    #download-gg-app-pic {
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .bennett-text h3 {
+        font-size: 14px;
+        letter-spacing: 4px;
+        top: 25px;
+        position: relative;
+    }
+
+    .truth-prevail-pic img {
+        top: 20px;
+    }
+
+    .bennett-text p {
+        font-size: 12px;
+        top: 50px;
+    }
+
+    .image-bg-color {
+        bottom: 100px;
+        width: 260px;
+        height: 275px;
+    }
+
+    #our-investor {
+        font-size: 14px;
+    }
+
+    .background-color-image {
+        height: 200px;
+    }
+}
+
+/* 11. FOOTER PART */
+/* mobile */
+@media only screen and (min-width: 220px) and (max-width: 576px) {
+    .footer-menus {
+        display: grid !important;
+        grid-template: 70px 40px 40px / 1fr 0fr 1fr;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .footer-menus {
+        flex-wrap: wrap;
+    }
+    #footer-gg-logo img{
+        width: 50%;
+    }
+
+    #second-footer-row,
+    #footer-gg-address,
+    #footer-social-media {
+        border: none !important;
+    }
+
+    .footer-menus a {
+        font-size: 14px;
+    }
+
+    #footer-play-store,
+    #footer-social-media,
+    #footer-gg-address h6,
+    #footer-gg-logo {
+        text-align: center !important;
+    }
+
+    #footer-gg-address p {
+        font-size: 14px;
+        text-align: center !important;
+    }
+
+    p br {
+        display: none;
+    }
+
+    #copyright {
+        font-size: 13px;
+    }
+
+    #footer-play-store {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #footer-play-store img{
+        width: 80%;
+    }
+}
+
+/* tablet */
+@media only screen and (min-width: 368px) and (max-width: 867px) {
+    .footer-menus {
+        display: grid !important;
+        text-align: center;
+        grid-template: 40px 40px 40px / 1fr 1fr 1fr;
+        place-items: center;
+    }
+
+    p br {
+        display: none;
+    }
+
+    #footer-gg-address {
+        border: none !important;
+    }
+
+    #footer-play-store,
+    #footer-social-media,
+    #footer-gg-address p,
+    #footer-gg-address h6,
+    #footer-gg-logo {
+        text-align: center !important;
+    }
+}
