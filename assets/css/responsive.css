@@ -256,6 +256,7 @@
     .gg-real-estate,
     .gg-game {
         height: 140px;
+        left: 10px;
     }
 
     .grid-container p {
