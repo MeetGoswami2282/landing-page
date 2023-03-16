@@ -682,6 +682,9 @@ input[type="text"] {
 #testimonial {
   background-color: #153566;
 }
+.fa-angle-left,.fa-angle-right{
+  font-size: 45px;
+}
 #first,#second ,#third{
   background-position: center;
   height: 150px;
