@@ -56,6 +56,9 @@
   width: 1rem;
   display: flex;
 }
+.fa-search,.fa-microphone{
+  color: white;
+}
 #logo-address {
   display: flex;
   justify-content: space-around;
