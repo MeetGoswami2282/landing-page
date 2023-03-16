@@ -574,6 +574,12 @@
     .saloon-name p {
         font-size: 14px;
     }
+    .saloon-address p{
+        font-size: 12px;
+    }
+    .rating{
+        font-size: 12px;
+    }
 }
 
 @media only screen and (min-width: 575px) and (max-width: 990px) {

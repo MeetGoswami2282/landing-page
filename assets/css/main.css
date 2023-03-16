@@ -430,6 +430,16 @@ input[type="text"] {
   color: #153566;
   font-weight: 500;
 }
+.toggle,
+    .toggle-second,
+    .toggle-third,
+    .toggle-fourth,
+    .toggle-fifth,
+    .toggle-sixth,
+    .toggle-seventh,
+    .toggle-eighth{
+  display: flex;
+}
 
 /* hot product for this week */
 #product-details {
