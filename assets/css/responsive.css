@@ -670,6 +670,9 @@
         padding: 20px !important;
        
     }
+    .fa-angle-left,.fa-angle-right{
+        font-size: 20px;
+      }
 
     .testimonial-heading-text {
         font-size: 16px;
