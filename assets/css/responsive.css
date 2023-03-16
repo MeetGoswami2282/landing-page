@@ -177,6 +177,7 @@
         height: 30px !important;
         position: relative;
         right: 4px;
+        margin-top: 12px;
     }
 
     #cart-icon {
@@ -526,10 +527,13 @@
     #fourth-saloon {
         border-radius: 0px;
     }
-
+    #fifth-saloon{
+        border-radius: 0px;
+    }
     .quick-view-btn button {
         font-size: 12px;
     }
+    
 
     #near-by-vendors {
         margin-top: 3px !important;
@@ -584,7 +588,9 @@
     #fourth-saloon {
         border-radius: 0px;
     }
-
+    #fifth-saloon{
+        border-radius: 0px;
+    }
     #seventh-saloon {
         border-radius: 0px 0px 0px 15px;
     }
@@ -661,6 +667,7 @@
 
     .testimonial-heading-text {
         font-size: 16px;
+        letter-spacing: 2px;
     }
 
     #first,
@@ -671,7 +678,7 @@
     }
 
     p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     #description-testimonial h3 {
@@ -762,12 +769,14 @@
         font-size: 15px;
         text-align: center;
     }
-
+    .footer-social-icons{
+        letter-spacing: 2px;
+    }
     .footer-menus {
         flex-wrap: wrap;
     }
     #footer-gg-logo img{
-        width: 50%;
+        width: 35%;
     }
 
     #second-footer-row,
@@ -798,6 +807,7 @@
 
     #copyright {
         font-size: 13px;
+        margin: 0px;
     }
 
     #footer-play-store {
@@ -810,13 +820,14 @@
 }
 
 /* tablet */
-@media only screen and (min-width: 368px) and (max-width: 867px) {
+@media only screen and (min-width: 368px) and (max-width:990px) {
     .footer-menus {
         display: grid !important;
         text-align: center;
         grid-template: 40px 40px 40px / 1fr 1fr 1fr;
         place-items: center;
     }
+   
 
     p br {
         display: none;

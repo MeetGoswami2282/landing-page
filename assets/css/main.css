@@ -632,6 +632,10 @@ input[type="text"] {
   border-radius: 20px;
   color: #153e80;
 }
+.saloon-address{
+ color:grey;
+
+}
 ::-webkit-scrollbar {
   width: 8px;
   cursor: pointer;
