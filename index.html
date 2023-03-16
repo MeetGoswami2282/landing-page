@@ -52,7 +52,11 @@
                     <div class="indian-flag d-flex"> <img src="images/Image 74.png" />
                         <div class="nav-icons d-flex"> <img src="images/Group 19947.svg" id="cart-icon" /> <img src="images/Group 19950.svg" id="notification-bell-icon" /> </div>
                     </div>
-                    <div class="user text-center position-relative" style="border: 1px solid white; border-radius: 20px; padding: 10px 20px;"> <span> Hi,User</span> <i class="fa fa-user" aria-hidden="true"></i> </div>
+                    <div class="user text-center position-relative" style="border: 1px solid white; border-radius: 20px; padding: 10px 20px;"> <span> Hi,User</span>
+                         <!-- <i class="fa fa-user" aria-hidden="true"></i> -->
+                        <img src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                        style="width: 50%; border-radius: 50px; ">
+                        </div>
                 </div>
             </div>
         </div>
@@ -86,11 +90,26 @@
             </div> <!-- <div class="toggle-responsive"><i class="fa fa-bars" aria-hidden="true"></i></div> -->
             <ul class="nav-menu" style="display: flex;">
                 <div class="responsive-search-bar-container p-1">
-                    <form action="" class="search-bar-responsive"> <label for="search" class="search-bar__label"> <span class="search-bar__label-icon" aria-hidden="true"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                    <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z" />
-                                </svg> </span> <span class="visually-hidden">Search</span> </label> <input id="search" type="search" name="search" class="search-bar__input" placeholder="What's on your mind" /> <button class="search-bar__button" type="button"> <span class="search-bar__button-icon" aria-hidden="true"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <form action="" class="search-bar-responsive"> 
+                        
+                        <label for="search" class="search-bar__label">
+                             <span class="search-bar__label-icon" aria-hidden="true"> 
+                                <i class="fa fa-search" aria-hidden="true" style="color: white;"></i>
+
+                           
+                                    <!-- <path d="M416 208   c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z" /> -->
+                                </svg> </span> 
+                             </label>
+                                 <input id="search" type="search" name="search" class="search-bar__input" placeholder="What's on your mind" /> 
+                                 <button class="search-bar__button" type="button">
+                                     <span class="search-bar__button-icon" aria-hidden="true">
+                                                                        <i class="fa fa-microphone" aria-hidden="true" style="color: white;"></i>
+
+                                     <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"> -->
                                     <path d="M192 0C139 0 96 43 96 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM64 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H120c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H216V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z" />
-                                </svg> </span> <span class="visually-hidden">Search by voice</span> </button> </form>
+                                </svg> </span>
+
+                                <span class="visually-hidden">Search by voice</span> </button> </form>
                 </div>
                 <div class="address"> <span class="select-location fw-lighter text-white">Select Location</span> <br />
                     <div type="button" class="bg-transparent border-none" data-bs-toggle="modal" data-bs-target="#exampleModals"> <i class="fa fa-map-marker text-white" aria-hidden="true"></i> <span class="text-white">Ahmedabad, 380005</span> </div>
@@ -787,6 +806,8 @@
                         <i class="fab fa-youtube"></i> 
                         <i class="fab fa-brands fa-twitter"></i>
                         <i class="fab fa-facebook"></i>
+
+
                     </div>
                 </div>
                 <div class="col-lg-2 col-md- col-sm-6 col-12 mt-4 mb-3" id="footer-play-store">
