@@ -814,6 +814,7 @@
     #copyright {
         font-size: 13px;
         margin: 0px;
+        text-align: center;
     }
 
     #footer-play-store {
@@ -823,10 +824,7 @@
     #footer-play-store img{
         width: 80%;
     }
-    /* .footer-icons{
-        display: flex;
-        justify-content: center;
-    } */
+ 
 }
 
 /* tablet */
