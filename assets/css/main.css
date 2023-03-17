@@ -450,12 +450,20 @@ input[type="text"] {
   border-radius: 15px; */
   margin: 10px;
 }
+#hot-product-row{
+  border: 1px solid #ED174A;
+  border-radius: 10px;
+}
 .hot-product-heading-btn button {
   background: transparent;
   border: 1px solid #153e80;
   border-radius: 20px;
   padding: 10px 25px;
   color: #153e80;
+}
+.hoodie-pic{
+  position: relative;
+  left: 5%;
 }
 #hot-product {
   color: #153e80;

@@ -421,7 +421,9 @@
     #hot-product-for-week {
         margin-top: 2px !important;
     }
-
+    .hoodie-pic{
+        left: 0%;
+      }
     #product-details {
         margin-top: 5px !important;
     }
