@@ -719,7 +719,23 @@
     }
 }
 
-@media only screen and (max-width: 990px) {
+
+@media only screen and (min-width: 480px) and (max-width: 993px) { 
+    #circle {
+        display: none;
+    }
+    #download-gg-app-pic {
+        width: 50%;
+        height: 100%;
+        left: 1px;
+    }
+    .background-color-image {
+        height: 250px;
+    }
+
+
+}
+/* @media only screen and (max-width: 992px) {
     #download-gg-app-pic {
         width: 35%;
         height: 100%;
@@ -732,23 +748,31 @@
     #circle {
         display: none;
     }
-}
+} */
 
-@media only screen and (max-width: 992px) {
+/* @media only screen and (max-width: 992px) {
 
     #download-gg-app-pic {
         left: 0px;
     }
-}
+} */
+@media only screen and (min-width: 320px) and (max-width: 480px) { 
 
-@media only screen and (max-width: 480px) {
+
     .bennett-text h3 {
         font-size: 14px;
         letter-spacing: 4px;
         top: 25px;
         position: relative;
     }
-
+    #download-gg-app-pic {
+        width: 35%;
+        height: 100%;
+        left: 1px;
+    }
+    #circle {
+        display: none;
+    }
     .truth-prevail-pic img {
         top: 20px;
     }
