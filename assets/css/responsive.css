@@ -452,7 +452,8 @@
     }
 
     .hot-product-heading-btn {
-        justify-content: space-around !important;
+        /* justify-content: space-around !important; */
+        padding: 10px;
     }
 
     #product-quantity {
@@ -548,7 +549,7 @@
     }
 
     .near-by-vendors-view-all-btn button {
-        padding: 2px 20px;
+        padding: 1px 11px;
         color: #153e80;
         font-size: 14px;
         position: relative;
@@ -725,7 +726,7 @@
         display: none;
     }
     #download-gg-app-pic {
-        width: 50%;
+        width: 40%;
         height: 100%;
         left: 1px;
     }
