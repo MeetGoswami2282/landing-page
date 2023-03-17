@@ -228,7 +228,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: auto auto auto auto auto auto;
-        grid-gap: 20px;
+        grid-gap: 15px;
         padding: 10px;
         grid-template-columns: repeat(2, 150px);
         justify-content: center
@@ -769,7 +769,7 @@
         position: relative;
     }
     #download-gg-app-pic {
-        width: 35%;
+       
         height: 100%;
         left: 1px;
     }
@@ -817,6 +817,9 @@
     }
     #footer-gg-logo img{
         width: 35%;
+    }
+    #second-footer-row{
+        display: unset !important;
     }
 
     #second-footer-row,
@@ -870,7 +873,9 @@
         place-items: center;
     }
    
-
+    #second-footer-row{
+        display: unset !important;
+    }
     p br {
         display: none;
     }

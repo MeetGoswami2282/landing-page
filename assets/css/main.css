@@ -446,12 +446,10 @@ input[type="text"] {
 
 /* hot product for this week */
 #product-details {
-  /* border: 1px solid #ed174a;
-  border-radius: 15px; */
   margin: 10px;
 }
 #hot-product-row{
-  border: 1px solid #ED174A;
+  border: 1px solid #ed174a;
   border-radius: 10px;
 }
 .hot-product-heading-btn button {
@@ -782,6 +780,9 @@ input[type="text"] {
 }
 .footer-menus a {
   text-decoration: none;
+}
+.footer-social-icons{
+  letter-spacing: 4px;
 }
 /* animation */
 :root {
