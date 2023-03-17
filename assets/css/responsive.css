@@ -430,6 +430,14 @@
         text-overflow: ellipsis;
         width: 140px;
     }
+    .delivery-text-icon{
+        flex-wrap: nowrap !important;
+    }
+    .gift-card-text{
+        white-space: nowrap;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+    } 
 }
 
 /*6. HOT PRODUCT FOR THIS WEEK */
