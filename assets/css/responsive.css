@@ -352,11 +352,11 @@
 
     .delivery-instant-text span,
     .digital-voucher span {
-        font-size: 11px;
+        font-size: 14px;
     }
 
     .gift-card-text {
-        font-size: 10px;
+        font-size: 14px;
         margin-bottom: 0px !important;
     }
 
@@ -474,6 +474,10 @@
         padding: 1px 11px;
         position: relative;
         top: 5px;
+    }
+    .all-detail-product{
+        margin-bottom: 2px !important;
+        padding: 8px;
     }
 }
 
