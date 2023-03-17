@@ -784,6 +784,9 @@ input[type="text"] {
 .footer-social-icons{
   letter-spacing: 4px;
 }
+#second-footer-row, #footer-gg-address, #footer-play-store{
+  /* height: 100px; */
+}
 /* animation */
 :root {
   --color-blue: #4e65cb;
@@ -853,3 +856,4 @@ input[type="text"] {
       fill: var(--color-pink);
  }
 }
+
