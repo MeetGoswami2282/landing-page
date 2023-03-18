@@ -248,7 +248,7 @@
     </div> <!-- 4. best-shopping website slider -->
     <div class="best-website">
         <div class="col-xl-10 col-lg-11 mx-auto">
-            <div class="best-shopping-website-heading d-flex justify-content-between flex-wrap">
+            <div class="best-shopping-website-heading d-flex justify-content-between flex-wrap px-4">
                 <div class="best-shopping-text">
                     <h2 class="text-center">BEST SHOPPING WEBSITES</h2>
                 </div>
@@ -800,22 +800,17 @@
       autoplay: false,
       nav: true,
       responsive: {
-        0: {
-          items: 5,
+        0:{
+            items:1,
         },
-        200: {
-          items: 1,
+        600:{
+            items:3
         },
-        700: {
-          items: 3,
-        },
-        1000: {
-          items: 3,
-        },
-        1200: {
-          items: 5,
-        },
+        1000:{
+            items:4
       },
+    
+    }
     });
     $(document).ready(function () {
       $("#circle").height($("#circle").width());

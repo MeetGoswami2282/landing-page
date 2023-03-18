@@ -401,6 +401,21 @@ input[type="text"] {
 .owl-carousel a {
   color: #0c2a57;
 }
+.owl-carousel {
+  margin: 2rem 0 !important;
+}
+
+.owl-carousel .item {
+  height: 10rem !important;
+  background: #4DC7A0;
+  padding: 1rem !important;
+}
+
+.owl-carousel .item h4 {
+  color: #FFF;
+  font-weight: 400;
+  margin-top: 0rem;
+}
 /* Mega Brands */
 #main-voucher {
   border-radius: 20px;
