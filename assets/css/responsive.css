@@ -297,20 +297,7 @@
 }
 
 /* 4.best shopping websites carousle */
-/* @media only screen and (min-width: 320px) and (max-width: 600px) {
-.boat,.lenovo,.lg,.wynk,.banggood{
-    display: grid;
-    place-items: center;
-}
-.boat-logo,
-.lenovo-logo,
-.lg-logo,
-.wynk-logo,
-.banggood-logo {
-    width: 75% !important;
-}
 
-} */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     .view-all {
         font-size: 12px;
@@ -344,6 +331,37 @@
 width: 100%;
     }
 }
+/* @media only screen and (min-width: 320px) and (max-width: 600px) {
+    .boat,.lenovo,.lg,.wynk,.banggood{
+        display: grid;
+        place-items: center;
+        width: 100%;
+    }
+    
+    } */
+    @media only screen and (min-width: 600px) and (max-width: 1300px) {
+        .boat-logo, .lenovo-logo, .lg-logo, .wynk-logo, .banggood-logo{
+            width: 100%;
+        }
+        .boat,.lenovo,.lg,.wynk,.banggood{
+            padding: 10px;
+        }
+
+    }
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+    .boat,.lenovo,.lg,.wynk,.banggood{
+        display: grid;
+        place-items: center;
+    }
+    .boat-logo,
+    .lenovo-logo,
+    .lg-logo,
+    .wynk-logo,
+    .banggood-logo {
+        width: 70% !important;
+    }
+    
+    }
 /* 
 /*5. MEGA BRANDS */
 /* mobile */
