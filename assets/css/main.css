@@ -327,8 +327,7 @@ input[type="text"] {
 .best-website {
   margin-top: 90px;
 }
-#second-row-boat-logo {
-
+#second-row-boat-logo,#second-row-lenovo-logo, #second-row-lg-logo,#second-row-wynk-logo,#second-row-banggood-logo   {
   margin: 20px 0px 20px 0px;
 }
 .lenovo-logo-pic img {
@@ -343,14 +342,7 @@ input[type="text"] {
 #second-lenovo-link {
   bottom: 40px;
 }
-#second-row-lenovo-logo {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-#second-row-lg-logo {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+
 .lg-logo-pic img {
   width: 75%;
   position: relative;
@@ -363,10 +355,6 @@ input[type="text"] {
   bottom: 40px;
 }
 
-#second-row-wynk-logo {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 .wynk-logo-pic img {
   top: 70px;
 }
@@ -378,10 +366,6 @@ input[type="text"] {
 }
 #second-wynk-link {
   bottom: 40px;
-}
-#second-row-banggood-logo {
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 .banggood-logo-pic img {
   top: 40px;
