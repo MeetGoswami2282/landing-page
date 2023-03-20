@@ -897,6 +897,9 @@ width: 100%;
     #footer-play-store img{
         width: 80%;
     }
+    #second-footer-row, #footer-gg-address{
+        height: unset ;
+    }
  
 }
 
@@ -910,7 +913,7 @@ width: 100%;
     }
    
     #second-footer-row{
-        display: unset !important;
+        display: grid !important;
     }
     p br {
         display: none;
@@ -918,6 +921,9 @@ width: 100%;
 
     #footer-gg-address {
         border: none !important;
+    }
+    #footer-gg-address{
+        height: unset;
     }
 
     #footer-play-store,
