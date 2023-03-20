@@ -228,7 +228,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: auto auto auto auto auto auto;
-        grid-gap: 15px;
+        grid-gap: 8px;
         padding: 10px;
         grid-template-columns: repeat(2, 150px);
         justify-content: center
@@ -518,8 +518,11 @@ width: 100%;
     #this-week {
         font-size: 20px;
         letter-spacing: 5px;
+        margin-top: 10px !important;
     }
-
+    .offer-time p{
+        top: 0px;
+    }
     .hot-product-view-all-btn button {
         padding: 3px 26px;
         font-size: 12px;
@@ -611,9 +614,13 @@ width: 100%;
     .rating{
         font-size: 12px;
     }
+
 }
 
 @media only screen and (min-width: 575px) and (max-width: 990px) {
+    #saloon-details{
+        margin-top: 0px !important;
+    }
     #first-saloon {
         border-radius: 15px 0px 0px 0px;
     }
