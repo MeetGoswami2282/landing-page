@@ -266,7 +266,8 @@ input[type="text"] {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
-  grid-gap: 66px;
+  /* grid-gap: 66px; */
+  grid-gap: 40px;
   padding: 10px;
   justify-content: center;
   grid-template-columns: repeat(auto-fill, 186px);
@@ -402,19 +403,6 @@ input[type="text"] {
   margin-top: 0rem;
 }
 
-
-.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
-  background-color: darkcyan !important;
-;
-  /* margin-top: 100px !important; */
-}
-.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
-   display: flex !important;
-   justify-content: space-between;
-   position:relative;
-   bottom: 300px;
-
-}
 /* Mega Brands */
 #main-voucher {
   border-radius: 20px;
