@@ -727,7 +727,7 @@ input[type="text"] {
   color: #FE7678;
 }
 .carousel-indicators .active{
-  border: 2px solid green;
+  border: 2px solid white;
   width: 180px !important;
   height: 180px !important;
 }
@@ -785,8 +785,12 @@ input[type="text"] {
 .footer-social-icons{
   letter-spacing: 4px;
 }
-#second-footer-row, #footer-gg-address, #footer-play-store{
-  /* height: 100px; */
+#second-footer-row, #footer-gg-address, #footer-play-store, #footer-social-media{
+  height: 100px;
+}
+#footer-gg-address, #second-footer-row{
+  display: grid;
+  place-content:center ;
 }
 /* animation */
 :root {
