@@ -331,14 +331,6 @@
 width: 100%;
     }
 }
-/* @media only screen and (min-width: 320px) and (max-width: 600px) {
-    .boat,.lenovo,.lg,.wynk,.banggood{
-        display: grid;
-        place-items: center;
-        width: 100%;
-    }
-    
-    } */
     @media only screen and (min-width: 600px) and (max-width: 1300px) {
         .boat-logo, .lenovo-logo, .lg-logo, .wynk-logo, .banggood-logo{
             width: 100%;
@@ -362,7 +354,7 @@ width: 100%;
     }
     
     }
-/* 
+ 
 /*5. MEGA BRANDS */
 /* mobile */
 @media only screen and (min-width: 320px) and (max-width: 595px) {
