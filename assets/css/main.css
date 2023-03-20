@@ -302,15 +302,20 @@ input[type="text"] {
   opacity: 1;
   padding: 5px 20px;
 }
+
 /* best-website slider */
 .boat-logo,.lenovo-logo,.lg-logo,.wynk-logo,.banggood-logo   {
-  width: 250px;
+  /* width: 250px; */
+  width: 100%;
   text-align: center;
   height: 250px;
   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 5px 8px #dedede;
   border-radius: 20px;
+}
+.lg,.wynk,.banggood, .boat,.lenovo{
+  padding: 10px;
 }
 #boat-link {
   top: 205px;
@@ -342,11 +347,15 @@ input[type="text"] {
 #second-lenovo-link {
   bottom: 40px;
 }
-
-.lg-logo-pic img {
-  width: 75%;
+.lg-logo-pic img{
+  width: 200px !important;
   position: relative;
-  top: 30px;
+  top: 40px;
+}
+.second-lg-logo-pic  img {
+  width: 200px !important;
+  position: relative;
+  top: 50px;
 }
 #lg-logo-link {
   top: 205px;
@@ -354,7 +363,6 @@ input[type="text"] {
 #second-lg-link {
   bottom: 40px;
 }
-
 .wynk-logo-pic img {
   top: 70px;
 }
@@ -382,7 +390,6 @@ input[type="text"] {
 .owl-carousel {
   margin: 2rem 0 !important;
 }
-
 .owl-carousel .item {
   height: 10rem !important;
   background: #4DC7A0;
@@ -393,6 +400,20 @@ input[type="text"] {
   color: #FFF;
   font-weight: 400;
   margin-top: 0rem;
+}
+
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  background-color: darkcyan !important;
+;
+  /* margin-top: 100px !important; */
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+   display: flex !important;
+   justify-content: space-between;
+   position:relative;
+   bottom: 300px;
+
 }
 /* Mega Brands */
 #main-voucher {
