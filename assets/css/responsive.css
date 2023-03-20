@@ -741,6 +741,11 @@ width: 100%;
         bottom:25%;
         color: white;
     }
+    .carousel-indicators .active{
+        border: 2px solid darkcyan;
+        width: 80px !important;
+        height: 70px !important;
+      }
 }
 
 /* 10.our visitor */

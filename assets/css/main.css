@@ -726,9 +726,10 @@ input[type="text"] {
   font-size: 18px;
   color: #FE7678;
 }
-#first .active{
-  width: 100px;
-  border:3px solid red;   
+.carousel-indicators .active{
+  border: 2px solid green;
+  width: 180px !important;
+  height: 180px !important;
 }
 /* benneet colman part */
 .bennett-text {
