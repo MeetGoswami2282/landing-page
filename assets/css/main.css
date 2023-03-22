@@ -56,7 +56,7 @@
   width: 1rem;
   display: flex;
 }
-.fa-search,.fa-microphone{
+.fa-search, .fa-microphone {
   color: white;
 }
 #logo-address {
@@ -86,7 +86,6 @@
 .main-navbar {
   background-color: #153e80;
 }
-
 input[type="text"] {
   border-radius: 20px;
   height: 40px;
@@ -108,7 +107,7 @@ input[type="text"] {
   position: relative;
   left: 5px;
 }
-#user-with-icon{
+#user-with-icon {
   letter-spacing: 5px;
 }
 #user-colum {
@@ -266,7 +265,8 @@ input[type="text"] {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
-  /* grid-gap: 66px; */
+ /* grid-gap: 66px;
+  */
   grid-gap: 40px;
   padding: 10px;
   justify-content: center;
@@ -292,7 +292,6 @@ input[type="text"] {
   box-shadow: inset 0px 3px 6px #ffffff, 0px 5px 8px #dedede;
 }
 /* best-website slider */
-
 .best-shopping-text h2 {
   color: #153e80;
 }
@@ -303,10 +302,10 @@ input[type="text"] {
   opacity: 1;
   padding: 5px 20px;
 }
-
 /* best-website slider */
-.boat-logo,.lenovo-logo,.lg-logo,.wynk-logo,.banggood-logo   {
-  /* width: 250px; */
+.boat-logo, .lenovo-logo, .lg-logo, .wynk-logo, .banggood-logo {
+ /* width: 250px;
+  */
   width: 100%;
   text-align: center;
   height: 250px;
@@ -315,7 +314,7 @@ input[type="text"] {
   box-shadow: 0px 5px 8px #dedede;
   border-radius: 20px;
 }
-.lg,.wynk,.banggood, .boat,.lenovo{
+.lg, .wynk, .banggood, .boat, .lenovo {
   padding: 10px;
 }
 #boat-link {
@@ -333,7 +332,7 @@ input[type="text"] {
 .best-website {
   margin-top: 90px;
 }
-#second-row-boat-logo,#second-row-lenovo-logo, #second-row-lg-logo,#second-row-wynk-logo,#second-row-banggood-logo   {
+#second-row-boat-logo, #second-row-lenovo-logo, #second-row-lg-logo, #second-row-wynk-logo, #second-row-banggood-logo {
   margin: 20px 0px 20px 0px;
 }
 .lenovo-logo-pic img {
@@ -348,12 +347,12 @@ input[type="text"] {
 #second-lenovo-link {
   bottom: 40px;
 }
-.lg-logo-pic img{
+.lg-logo-pic img {
   width: 200px !important;
   position: relative;
   top: 40px;
 }
-.second-lg-logo-pic  img {
+.second-lg-logo-pic img {
   width: 200px !important;
   position: relative;
   top: 50px;
@@ -396,13 +395,11 @@ input[type="text"] {
   background: #4DC7A0;
   padding: 1rem !important;
 }
-
 .owl-carousel .item h4 {
   color: #FFF;
   font-weight: 400;
   margin-top: 0rem;
 }
-
 /* Mega Brands */
 #main-voucher {
   border-radius: 20px;
@@ -435,22 +432,14 @@ input[type="text"] {
   color: #153566;
   font-weight: 500;
 }
-.toggle,
-    .toggle-second,
-    .toggle-third,
-    .toggle-fourth,
-    .toggle-fifth,
-    .toggle-sixth,
-    .toggle-seventh,
-    .toggle-eighth{
+.toggle, .toggle-second, .toggle-third, .toggle-fourth, .toggle-fifth, .toggle-sixth, .toggle-seventh, .toggle-eighth {
   display: flex;
 }
-
 /* hot product for this week */
 #product-details {
   margin: 10px;
 }
-#hot-product-row{
+#hot-product-row {
   border: 1px solid #ed174a;
   border-radius: 10px;
 }
@@ -461,7 +450,7 @@ input[type="text"] {
   padding: 10px 25px;
   color: #153e80;
 }
-.hoodie-pic{
+.hoodie-pic {
   position: relative;
   left: 5%;
 }
@@ -515,13 +504,11 @@ input[type="text"] {
   font-size: 14px;
   color: #9b9bb4;
 }
-
 #image-with-discount img {
   width: 204px;
   height: 200px;
   border-radius: 50%;
 }
-
 /* near by vendors */
 #first-saloon {
   border: 1px solid #e9eaf1;
@@ -557,10 +544,12 @@ input[type="text"] {
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 5px 8px #dedede;
   z-index: 1;
+  border-bottom-color: #60daaa;
+  border-left-color: #60daaa;
+  border-top-color: #60daaa;
+  border-right-color: #60daaa;
+  transition: 0.15s width ease 0.15s;
 }
-
-  
-
 #first-saloon:hover #first-saloon::before, #first-saloon::after {
   position: absolute;
   top: 0;
@@ -582,7 +571,6 @@ input[type="text"] {
 #first-saloon:hover::before, #first-saloon:focus::before, #first-saloon:hover::after, #first-saloon:focus::after {
   transform: scale3d(1, 1, 1);
 }
-
 .near-byvendors-heading-btn {
   padding: 10px 25px;
   color: #153e80;
@@ -635,7 +623,6 @@ input[type="text"] {
 }
 .scroll-bar-details span {
   color: #b8b9ca;
-
 }
 .scroll-bar-details p {
   color: #41c77f;
@@ -652,15 +639,13 @@ input[type="text"] {
   border-radius: 20px;
   color: #153e80;
 }
-.saloon-address{
- color:grey;
-
+.saloon-address {
+  color: grey;
 }
 ::-webkit-scrollbar {
   width: 8px;
   cursor: pointer;
 }
-
 .card1, .card2, .card3, .card4 {
   display: inline-block;
   border-radius: 20px;
@@ -685,10 +670,10 @@ input[type="text"] {
 #testimonial {
   background-color: #153566;
 }
-.fa-angle-left,.fa-angle-right{
+.fa-angle-left, .fa-angle-right {
   font-size: 45px;
 }
-#first,#second ,#third{
+#first, #second, #third {
   background-position: center;
   height: 150px;
   width: 150px;
@@ -696,7 +681,7 @@ input[type="text"] {
   background-size: cover;
 }
 #first {
-  background-image: url("https://images.pexels.com/photos/3808822/pexels-photo-3808822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+  background-image: url("https://images.pexels.com/photos/3808822/pexels-photo-3808822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") 
 }
 #second {
   background-image: url("https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
@@ -708,7 +693,6 @@ input[type="text"] {
   position: relative;
   margin-top: 4%;
 }
-
 #description-testimonial {
   background: white;
   padding: 3%;
@@ -722,11 +706,11 @@ input[type="text"] {
 #description-testimonial h3 {
   color: #153566;
 }
-.fa-quote-left, .fa-quote-right{
+.fa-quote-left, .fa-quote-right {
   font-size: 18px;
   color: #FE7678;
 }
-.carousel-indicators .active{
+.carousel-indicators .active {
   border: 2px solid white;
   width: 180px !important;
   height: 180px !important;
@@ -782,15 +766,15 @@ input[type="text"] {
 .footer-menus a {
   text-decoration: none;
 }
-.footer-social-icons{
+.footer-social-icons {
   letter-spacing: 4px;
 }
-#second-footer-row, #footer-gg-address, #footer-play-store, #footer-social-media{
+#second-footer-row, #footer-gg-address, #footer-play-store, #footer-social-media {
   height: 100px;
 }
-#footer-gg-address, #second-footer-row{
+#footer-gg-address, #second-footer-row {
   display: grid;
-  place-content:center ;
+  place-content: center;
 }
 /* animation */
 :root {
@@ -861,4 +845,3 @@ input[type="text"] {
       fill: var(--color-pink);
  }
 }
-
